@@ -1,0 +1,124 @@
+body{
+    background-color: #fbffcc;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 0px
+}
+.navbar {
+    width: 60%;
+    height: 43px;
+    background-color: #f1f1f1;
+    border-radius: 30px;
+    border: 2px solid rgb(177, 171, 171);
+    display: flex;
+    justify-content: center;
+    color: rgb(211, 211, 211);
+}
+.sugestao{
+    background-image: url('mdtf2.jpg');
+    height: 600px;
+    width: 80%;
+    display: flex;
+     background-size: cover;
+     background-position: center;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+.pintado{
+    background-color: rgb(222, 231, 231);
+}
+.bolinhas {
+margin: 13px;;
+display: flex;
+justify-content: center;
+gap: 10px;
+
+
+}
+.bolinhas>div{
+     
+    height: 15px;
+    width: 15px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+.audio{
+    position: fixed;
+    display: flex;
+    right:0;
+    justify-content: end;
+    
+}
+aside{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    left: 0;
+    position:fixed;
+    height: 100%;
+    font-size: 20px;
+    background-color: #ddc996;
+    padding: 15px;
+}
+aside > div{
+    background-color: transparent ;
+}
+
+aside > hr{
+    width: 100%;
+}
+
+main{
+    width: 55%;
+    border: 2px solid red;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    height: 1280px;
+    gap: 120px 0px
+}
+aside > a > img{
+    border-radius: 50%;
+
+    height: 30px;
+    
+}
+a{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color:black;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+.fotoperfil{
+    border-radius: 50%;
+ }
+.perfil{
+    border: 2px solid red;
+    display: flex;
+}
+.descricaoperfil{
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: column;
+}
+.label{
+    border: 2px solid blueviolet;
+   
+}
+.historico{
+    border: 2px solid red;
+    
+
+}
+.historicovideo{
+    border: 2px solid black;
+}
